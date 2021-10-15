@@ -58,6 +58,8 @@ menu a{
 
 .boutique_item{
     width:200px ;
+    color: white;
+    font-weight: 500;
 }
 
 .boutique_item img{
@@ -75,7 +77,15 @@ menu a{
     justify-content: space-around;
 }
 
-
+.position {
+    display: flex;
+    align-content: center;
+}
+.position a {
+    display: flex;
+    align-items: center;
+    padding-right: 10px;
+}
 
 footer{
     margin-top: 50px;
@@ -93,4 +103,25 @@ footer p{
 iframe{
     margin-left: 35px;
     border: 0cm;
+}
+
+.timeline__content{
+
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 50px;
+    width: 400px;
+    height: 120PX;
+    background: linear-gradient(0deg, rgba(224,73,31,1) 0%, rgba(0,0,0,1) 100%);
+}
+.content_p{
+    display: flex;
+    padding-top: 50px;
+    align-content: center;
+}
+
+.content_date{
+    padding-top: 10px;
+    color: rgba(224,73,31,1);
+    font-weight: bolder;
 }
